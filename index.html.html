@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IM-FUNDAMENTA</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #0cc3db, #1467d7);
+      color: white;
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      background-color: #0b5ed7;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      padding: 15px;
+      z-index: 1000;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 12px;
+      background-color: rgba(255,255,255,0.1);
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    nav a:hover {
+      background-color: rgba(255,255,255,0.3);
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    section h2 {
+      border-bottom: 2px solid white;
+      padding-bottom: 10px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "\2022 ";
+      color: #ffcc00;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+    }
+    .videos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    iframe {
+      width: 100%;
+      max-width: 480px;
+      height: 270px;
+      margin: 10px;
+      border: none;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #0b5ed7;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#historia">Historia</a>
+    <a href="#fundamentos">Fundamentos</a>
+    <a href="#arquitectura">Arquitectura</a>
+    <a href="#etica">Ética</a>
+    <a href="#aplicaciones">Aplicaciones</a>
+    <a href="#accesibilidad">Accesibilidad</a>
+  </nav>
+
+  <section id="historia">
+    <h2>Historia y Evolución</h2>
+    <ul>
+      <li>CD-ROM (1990s)</li>
+      <li>Web 1.0 (1995)</li>
+      <li>WebGL (2011)</li>
+      <li>Streaming 4K (2020)</li>
+    </ul>
+    <div class="videos">
+      <iframe src="https://www.youtube.com/embed/FVoiNLDAXDg" title="Historia y evolución de la multimedia – Fundamentos de Multimedia (SENA)" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/cnooN1BUuYQ" title="Historia del CD-ROM" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/UCiTwPihzhQ" title="¿Qué es la Web 1.0 y cómo era?" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/j9uI7lPoEbQ" title="¿Qué es el 4K y cómo funciona el streaming?" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="fundamentos">
+    <h2>Fundamentos Técnicos</h2>
+    <ul>
+      <li>Muestreo</li>
+      <li>DCT</li>
+      <li>MPEG</li>
+      <li>Codecs</li>
+    </ul>
+    <div class="videos">
+      <iframe src="https://www.youtube.com/embed/YzOeq3P6HJA" title="¿Qué es el muestreo digital? - Rápida explicación en español" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/3qW5XG1Xwuw" title="Transformada Discreta del Coseno (DCT) - Aplicación práctica" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/Nu4C8NqQoJ4" title="Compresión de video con MPEG explicado en español" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/tk7E0N_2E3s" title="¿Qué son los códecs? - Explicación simple y en español" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="arquitectura">
+    <h2>Arquitectura</h2>
+    <ul>
+      <li>Modelo cliente-servidor</li>
+      <li>Redes de distribución de contenido (CDN)</li>
+      <li>Streaming adaptativo (HLS, MPEG-DASH)</li>
+    </ul>
+    <div class="videos">
+      <iframe src="https://www.youtube.com/embed/JPhjFeFU1zI" title="Cómo funciona el modelo cliente-servidor" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/HnF8R_NAzrM" title="¿Qué es un CDN (Red de distribución de contenido)?" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/Gd0mQ96FMYY" title="¿Qué es el streaming adaptativo? - HLS y MPEG-DASH explicado en español" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="etica">
+    <h2>Ética</h2>
+    <ul>
+      <li>Derechos de autor y licencias</li>
+      <li>Sostenibilidad digital</li>
+      <li>Privacidad de los datos del usuario</li>
+    </ul>
+    <div class="videos">
+      <iframe src="https://www.youtube.com/embed/2JMG-4gHcI4" title="¿Qué son los derechos de autor? - Explicación en español" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/YR4zZX3YhC8" title="¿Qué es la sostenibilidad digital?" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/gBB8WY3q9os" title="¿Qué es la privacidad digital? - Explicación sencilla" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="aplicaciones">
+    <h2>Aplicaciones</h2>
+    <ul>
+      <li>Videojuegos</li>
+      <li>VR/AR</li>
+      <li>E-learning</li>
+      <li>Museografía</li>
+    </ul>
+    <div class="videos">
+      <iframe src="https://www.youtube.com/embed/P8K6G2tb-44" title="¿Cómo funcionan los videojuegos? – Explicación en español" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/6zXjzD3nZ9k" title="Realidad virtual y aumentada – ¿Cuál es la diferencia? (Español)" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/g8zyu7xMBzQ" title="¿Qué es el e-learning y cómo funciona?" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/Uwb4Hgcfr2g" title="Museografía digital – Aplicaciones y ejemplos en español" allowfullscreen></iframe>
+    </div>
+  </section>
+
+  <section id="accesibilidad">
+    <h2>Accesibilidad</h2>
+    <ul>
+      <li>WCAG</li>
+      <li>Subtítulos</li>
+      <li>Audio descripción</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 | Proyecto académico de Ingeniería Multimedia | Desarrollado por Camilo Andrés Luna Ortiz</p>
+  </footer>
+</body>
+</html>
